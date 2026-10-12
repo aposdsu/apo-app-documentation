@@ -1,0 +1,21 @@
+{
+  "page_slug": "events_41",
+  "method": "GET",
+  "url": "https://example.org/api/events/41",
+  "status": 200,
+  "request_headers": {"Authorization": "<redacted>"},
+  "request_body": null,
+  "response_body": {
+    "id": 41, "title": "Campus Cleanup", "category": "service",
+    "starts_at": "2026-09-12T14:00:00Z", "location": "Quad", "capacity": 30,
+    "signup_count": 12, "created_by_id": 7, "cancelled_at": "2026-09-10T03:11:00Z",
+    "attendance": [
+      {"id": 900, "member_id": 15, "event_id": 41, "status": "attended", "hours_credited": 3.5,
+       "approved_by_id": 7, "approved_at": "2026-09-13T01:00:00Z"},
+      {"id": 901, "member_id": 16, "event_id": 41, "status": "no_show", "hours_credited": 0,
+       "approved_by_id": null, "approved_at": null}
+    ]
+  },
+  "triggered_by": "clicked event row",
+  "notes": ""
+}

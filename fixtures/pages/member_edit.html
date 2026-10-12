@@ -1,0 +1,23 @@
+<html><body>
+<h2>Edit Brother</h2>
+<form action="/member_save.php" method="POST" id="memberForm">
+  <input type="hidden" name="member_id" value="152">
+  <input type="hidden" name="csrf_token" value="abc123">
+  <input type="text" name="first_name" required maxlength="50">
+  <input type="text" name="last_name" required maxlength="50">
+  <input type="email" name="email" required maxlength="120">
+  <input type="tel" name="phone" maxlength="20">
+  <input type="text" name="pledge_class" maxlength="8">
+  <select name="status_id" required>
+    <option value="">-- choose --</option>
+    <option value="1">Active</option>
+    <option value="2">Abroad</option>
+    <option value="3">Alumni</option>
+    <option value="4">Inactive</option>
+  </select>
+  <textarea name="notes"></textarea>
+  <input type="submit" value="Save">
+</form>
+<a href="/credits.php?member_id=152&term=fa26">Credits</a>
+<a href="/member.php?id=152">Back</a>
+</body></html>

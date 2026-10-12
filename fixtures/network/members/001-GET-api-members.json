@@ -1,0 +1,21 @@
+{
+  "page_slug": "members",
+  "method": "GET",
+  "url": "https://example.org/api/members?status=active",
+  "status": 200,
+  "request_headers": {},
+  "request_body": null,
+  "response_body": {
+    "results": [
+      {"id": 15, "name": "Member Name", "email": "user@example.edu", "role": "member",
+       "pledge_class": "FA25", "status": "active", "service_hours_total": 21.5,
+       "uuid": "3f2a1b4c-5d6e-4f70-8a91-b2c3d4e5f607"},
+      {"id": 7, "name": "Member Name", "email": "user@example.edu", "role": "officer",
+       "pledge_class": "SP24", "status": "active", "service_hours_total": 44.0,
+       "uuid": "aa2a1b4c-5d6e-4f70-8a91-b2c3d4e5f699"}
+    ],
+    "page": 1, "page_size": 25, "total": 58, "has_next": true
+  },
+  "triggered_by": "page load",
+  "notes": "member PII replaced with placeholders"
+}

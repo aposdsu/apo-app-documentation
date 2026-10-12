@@ -1,0 +1,15 @@
+<html><body>
+<h1>Chapter Roster</h1>
+<form action="/roster.php" method="GET">
+  <select name="status_id"><option value="1">Active</option><option value="2">Abroad</option></select>
+  <select name="term"><option value="fa26">Fall 2026</option><option value="sp26">Spring 2026</option></select>
+  <input type="text" name="q" maxlength="60">
+</form>
+<table>
+  <tr><th>Name</th><th>Pledge Class</th><th>Status</th><th>Service Hours</th><th>Meetings</th><th>Dues</th></tr>
+  <tr><td>Ann Alpha</td><td>FA25</td><td>Active</td><td>12.5</td><td>4</td><td>Paid</td></tr>
+  <tr><td>Ben Beta</td><td>SP26</td><td>Active</td><td>3.0</td><td>2</td><td>Owes $25</td></tr>
+</table>
+<a href="/member.php?id=152">Ann</a><a href="/member.php?id=153">Ben</a>
+<a href="/events.php?term=fa26&kind=service&sort=starts_at">Events</a>
+</body></html>

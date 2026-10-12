@@ -1,0 +1,19 @@
+{
+  "page_slug": "events",
+  "method": "GET",
+  "url": "https://example.org/api/events?semester=fa26&page=1&sort=starts_at",
+  "status": 200,
+  "request_headers": {"Authorization": "<redacted>", "Cookie": "<redacted>"},
+  "request_body": null,
+  "response_body": {
+    "results": [
+      {"id": 41, "title": "Campus Cleanup", "category": "service", "starts_at": "2026-09-12T14:00:00Z",
+       "location": "Quad", "capacity": 30, "signup_count": 12, "created_by_id": 7, "cancelled_at": null},
+      {"id": 42, "title": "Chapter Meeting", "category": "fellowship", "starts_at": "2026-09-14T19:00:00Z",
+       "location": null, "capacity": null, "signup_count": 45, "created_by_id": 7, "cancelled_at": null}
+    ],
+    "page": 1, "page_size": 25, "total": 63, "has_next": true
+  },
+  "triggered_by": "page load",
+  "notes": ""
+}
